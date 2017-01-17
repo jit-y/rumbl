@@ -15,7 +15,7 @@ defmodule Rumbl.TestHelpers do
 
   def insert_video(user, attrs \\ %{}) do
     user
-    |> Ecto.build_assoc(user, attrs)
+    |> Ecto.build_assoc(:videos, attrs)
     |> Repo.insert!
   end
 end
