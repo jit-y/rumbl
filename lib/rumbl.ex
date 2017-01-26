@@ -9,7 +9,7 @@ defmodule Rumbl do
     # Define workers and child supervisors to be supervised
     children = [
       supervisor(Rumbl.Repo, []),
-      supervisor(Rumnl.InfoSys.Supervisor, []),
+      supervisor(Rumbl.InfoSys.Supervisor, []),
       supervisor(Rumbl.Endpoint, []),
     ]
 

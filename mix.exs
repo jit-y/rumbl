@@ -50,7 +50,8 @@ defmodule Rumbl.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:credo, "~> 0.5.3", only: :dev},
-     {:comeonin, "~> 3.0"}
+     {:comeonin, "~> 3.0"},
+     {:sweet_xml, "~> 0.6.4"}
     ]
   end
 
